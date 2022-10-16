@@ -6,3 +6,5 @@ for i in range(pocet):
     lit_poc.append(lit[i])
 
 print(lit_poc)
+
+#velmi originalni pouziti generatoru 
