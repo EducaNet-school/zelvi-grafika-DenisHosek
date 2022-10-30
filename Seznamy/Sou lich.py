@@ -21,4 +21,6 @@ uzi = int(input('Zadejte liche cislo: '))
 
 sou_lich(uzi)
 
+# priste zkus kontrolovat uzivatelsky vstup pomoci while cyklu
+# pomoci rekurze to neni moc dobre
 
