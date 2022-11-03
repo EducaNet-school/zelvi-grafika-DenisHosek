@@ -7,3 +7,5 @@ for i in range(opak):
     seznam.append(f)
 
 print(seznam)
+
+#zajimave, funguje, jen pozor Fibonaciho rada nezacina od 0
