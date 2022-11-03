@@ -1,17 +1,22 @@
-def vypis(a):
-    dict = {}
-    for i in a:
+def end(a):
+    di = {}
+    di.update(a)
+    for i in sorted(di.items()):
         pass
+    print(dict(sorted(di.items())))
+
 
 def pis(a):
-    dic = []
+    from collections import Counter
+    d = []
     for l in a:
-        if l in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdef":
-            dic.append(l)
+        if l in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ":
+            d.append(l)
     else:
-        vypis(dic)
+        a = Counter(d)
+        end(a)
+       
 
-
-p = str(input("Kolik chcete zadat pismen "))
+p = str(input("Zadejte větu: "))
 
 pis(p)
